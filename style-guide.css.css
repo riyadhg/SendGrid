@@ -1,0 +1,92 @@
+.order-confirmation {
+  width: 100%;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+}
+
+.section {
+  width: 100%;
+  background-color: #f1f1f2;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 64px;
+  padding-bottom: 64px;
+  display: flex;
+}
+
+.container {
+  width: 100%;
+  max-width: 600px;
+  min-width: 360px;
+  grid-column-gap: 8px;
+  grid-row-gap: 8px;
+  background-color: #fcfcfc;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 24px;
+  display: flex;
+}
+
+.border {
+  height: 8px;
+  object-fit: cover;
+  flex: 0 auto;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.border.black._1px {
+  height: 1px;
+}
+
+.bash-logo {
+  width: 144.147px;
+  height: 52.1397px;
+  object-fit: cover;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.text {
+  color: #000;
+  letter-spacing: -.01em;
+  font-size: 38px;
+  font-weight: 700;
+}
+
+.graphic-container {
+  width: 100%;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  justify-content: center;
+  align-items: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  display: flex;
+}
+
+.illustration {
+  object-fit: cover;
+  flex: 0 auto;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.body {
+  color: #000;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.bold {
+  font-weight: 700;
+}
